@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WSAccess</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Welcome</string>
+    <string name="http_33_33_33_100_3000_api_users">http://33.33.33.100:3000/api_users</string>
+    <string name="wsClickHandler"></string>
+    <string name="get_users">Get Users</string>
+    <string name="text_field_default"></string>
+
+</resources>
