@@ -165,18 +165,24 @@ public class FullscreenActivity extends Activity {
  
         return;
 		}
+    
+    public void wsClickHandler2(View view) {
+      // get reference to the views
+      etResponse = (EditText) findViewById(R.id.editText1);
+      etResponse.setText("");
+      return;
+	}
 		
-		 private static String convertInputStreamToString(InputStream inputStream) throws IOException{
-		        BufferedReader bufferedReader = new BufferedReader( new InputStreamReader(inputStream));
-		        String line = "";
-		        String result = "";
-		        while((line = bufferedReader.readLine()) != null)
-		            result += line;
+	private static String convertInputStreamToString(InputStream inputStream) throws IOException{
+	  BufferedReader bufferedReader = new BufferedReader( new InputStreamReader(inputStream));
+	  String line = "";
+	  String result = "";
+	  while((line = bufferedReader.readLine()) != null)
+	    result += line;
+		inputStream.close();
+		return result;
 		 
-		        inputStream.close();
-		        return result;
-		 
-		    }
+	  }
 	
 	@Override
 	protected void onPostCreate(Bundle savedInstanceState) {

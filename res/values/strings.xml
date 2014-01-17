@@ -8,5 +8,6 @@
     <string name="wsClickHandler"></string>
     <string name="get_users">Get Users</string>
     <string name="text_field_default"></string>
+    <string name="clear_users">Clear Users</string>
 
 </resources>
